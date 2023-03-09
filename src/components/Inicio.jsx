@@ -4,8 +4,8 @@ import Trabajos from "./Carrusel";
 function Presentacion() {
     return (
         <>
-            <div>
-                <h2> Nuestros Trabajos </h2>
+            <div className='Inicio'>
+                <h2 className='TituloInicio'> Nuestros Trabajos </h2>
 
                 <Trabajos/>
                 

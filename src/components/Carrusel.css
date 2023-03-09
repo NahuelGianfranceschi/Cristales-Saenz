@@ -1,5 +1,19 @@
-.carousel-inner{
-    display:flex;
-    flex-direction: column;
-    text-align: center;
+.CarouselDiv{
+    display: flex;
+    justify-content: center;
+  
+}
+
+.ImagenCarousel{
+    height: 30rem;
+    width: 60rem;
+
+}
+
+#Vidrios1{
+    
+}
+
+#DVH2{
+
 }

@@ -1,0 +1,11 @@
+.Inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.TituloInicio{
+    padding-bottom: 4rem;
+    padding-top: 8rem;
+}
