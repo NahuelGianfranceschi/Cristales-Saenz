@@ -1,0 +1,23 @@
+.footerdiv{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(102, 189, 219);
+    color: rgb(253, 253, 253);;
+}
+
+.text-uppercase{
+    padding-bottom: 1rem;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+.row{
+    justify-content: space-evenly;
+    
+}
+
