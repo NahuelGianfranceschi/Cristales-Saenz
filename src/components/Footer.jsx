@@ -1,5 +1,7 @@
 import React from "react"
 import "./Footer.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 
 const Footerf = () => <footer className="footerdiv">
@@ -15,11 +17,11 @@ const Footerf = () => <footer className="footerdiv">
             <hr className="clearfix w-100 d-md-none pb-0"/>
 
             <div className="col-md-3 mb-md-0 mb-3">
-                <h5 className="text-uppercase">Redes</h5>
+                
                 <ul className="list-unstyled">
-                    <li><p>WhatsApp: </p> </li>
-                    <li><p>Instagram:</p><a href="#!"> </a></li>
-                    <li><p>Mail: </p></li>
+                    <li>< FontAwesomeIcon icon={brands('whatsapp')}/><p className="textoiconos">WhatsApp: </p> </li>
+                    <li>< FontAwesomeIcon icon={brands('instagram')}/><p className="textoiconos"> Instagram: </p></li>
+                    <li>< FontAwesomeIcon icon={regular('envelope')}/><p className="textoiconos">Mail: </p></li>
                 </ul>
             </div>
 
@@ -27,7 +29,7 @@ const Footerf = () => <footer className="footerdiv">
         </div>
     </div>
 
-    <div className="footer-copyright text-center py-3">© 2020 Copyright:
+    <div className="footer-copyright text-center py-3">© 2023 Copyright:
         <a href="https://mdbootstrap.com/"> CristalesSaenz.com</a>
     </div>
 
